@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     .perfiloide{
-        @extend %perfiloide;
+        @include perfiloide(aquamarine);
         border: solid;
         display: flex;
         flex-direction: row;

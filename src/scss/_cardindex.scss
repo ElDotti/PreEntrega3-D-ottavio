@@ -1,0 +1,20 @@
+.cardIndex{
+    @extend %cardRegular;
+    .carta{
+        height: 400px;
+        width: 300px;
+        justify-content: center;
+        .text-end{
+            display: flex;
+            justify-content: center;
+
+        }
+
+    }
+    @media (max-width: 330px){
+        .carta{
+            width: 250px;
+            height: 350px;
+        }
+    }
+}
